@@ -2,13 +2,13 @@
 
 *1* - Sobre a resposta JSON apresentada representa os dados de um pedido realizado em um restaurante através de um sistema ERP. A estrutura do arquivo é hierárquica, ou seja, existem informações principais e, dentro delas, outros agrupamentos de dados relacionados ao pedido.
 
--- Na raiz do JSON existem informações gerais da integração, como:
+Na raiz do JSON existem informações gerais da integração, como:
 
 curUTC: que são data e hora em que a resposta foi gerada;
 locRef: Um identificador da loja/restaurante;
 guestChecks: Uma lista contendo os pedidos registrados.
 
--- O campo guestChecks é um array que armazena os pedidos realizados pelos clientes. Cada pedido possui informações operacionais e financeiras importantes para o funcionamento do restaurante, como:
+O campo guestChecks é um array que armazena os pedidos realizados pelos clientes. Cada pedido possui informações operacionais e financeiras importantes para o funcionamento do restaurante, como:
 
 identificador único do pedido (guestCheckId);
 número da conta (chkNum);
