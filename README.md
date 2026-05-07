@@ -50,7 +50,7 @@ errorCode: possíveis erros operacionais.
 
 Isso mostra que a estrutura do JSON é flexível e permite representar diferentes tipos de operações realizadas durante o atendimento no restaurante.
 
------------------------------------------------------------------------------------------------------------------------------------------------------
+
 *2* - Em relação às tabelas e ao arquivo restaurant_erp.db, para rodar o código, é necessário rodar o script abaixo:
 
 Para rodar:
@@ -58,7 +58,6 @@ python load_erp_sqlite.py
 
 restaurant_erp.db
 
--------------------------------------------------------------------------------------------------------------------------------------------------------
 
 *3* - Para realizar a modelagem do JSON, optei por separar os dados em tabelas diferentes de acordo com a função de cada informação dentro da operação do restaurante. A ideia foi evitar uma única tabela muito grande e com muitos campos desnecessários. Utilizei uma tabela principal para os pedidos (guest_check) e tabelas auxiliares para impostos, itens do cardápio, descontos, pagamentos, taxas de serviço e possíveis erros. Também criei uma tabela base para detailLines, já que esse objeto pode representar diferentes tipos de operações dentro do sistema.
 Essa abordagem deixa a estrutura mais organizada, facilita consultas futuras e torna a solução mais flexível para possíveis mudanças no ERP.
