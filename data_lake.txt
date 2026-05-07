@@ -1,0 +1,26 @@
+data_lake/
+│
+├── raw/
+│   ├── fiscal_invoice/
+│   │   └── 2024/01/01/
+│   │       └── store_1.json
+│   │
+│   ├── guest_checks/
+│   │   └── 2024/01/01/
+│   │       └── store_1.json
+│   │
+│   ├── chargeback/
+│   │   └── 2024/01/01/
+│   │       └── store_1.json
+│   │
+│   ├── transactions/
+│   │   └── 2024/01/01/
+│   │       └── store_1.json
+│   │
+│   └── cash_management/
+│       └── 2024/01/01/
+│           └── store_1.json
+│
+├── processed/
+│
+└── curated/
